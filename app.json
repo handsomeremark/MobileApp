@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "GREENCARTPH",
+    "slug": "GREENCARTPH",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
