@@ -4,12 +4,12 @@ import { getFirestore } from 'firebase/firestore';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyB911-mlNqPcUt2gW28ylfYsRrTKKPaOlY',
-  authDomain: 'otpgreencart-2b69f.firebaseapp.com',
-  projectId: 'otpgreencart-2b69f',
-  storageBucket: 'otpgreencart-2b69f.appspot.com',
-  messagingSenderId: '428460804857',
-  appId: '1:428460804857:android:9786303130e100ed23f028',
+  apiKey: 'AIzaSyA_qxtQgA9yIAb9YG9EmfWpAJ0hiVQBuxY',
+  authDomain: 'otpgreencartph.firebaseapp.com',
+  projectId: 'otpgreencartph',
+  storageBucket: 'otpgreencartph.appspot.com',
+  messagingSenderId: '400263720006',
+  appId: '1:400263720006:android:e2884090d8ea2ce6402e47',
 };
 
 if (getApps().length === 0) {

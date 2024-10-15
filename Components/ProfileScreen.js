@@ -80,54 +80,15 @@ const Profile = () => {
 
 const styles = StyleSheet.create({
   container: { flex: 1 },
-  profileCard: {
-    backgroundColor: 'white',
-    margin: 20,
-    borderRadius: 10,
-    alignItems: 'center',
-    padding: 20,
-  },
-  profileImage: {
-    width: 100,
-    height: 100,
-    borderRadius: 50,
-    marginBottom: 15,
-  },
-  profileName: {
-    fontSize: 20,
-    fontWeight: 'bold',
-    marginBottom: 5,
-  },
-  profileLocation: {
-    fontSize: 14,
-    color: 'gray',
-  },
-  profilePhone: {
-    fontSize: 14,
-    color: 'gray',
-    marginBottom: 10,
-  },
-  menuItem: {
-    backgroundColor: 'white',
-    padding: 20,
-    marginHorizontal: 20,
-    marginVertical: 10,
-    borderRadius: 10,
-    flexDirection: 'row',
-    alignItems: 'center',
-  },
-  iconContainer: {
-    padding: 10,
-    borderRadius: 5,
-    marginRight: 10,
-  },
-  icon: {
-    fontSize: 20,
-    color: '#4caf50',
-  },
-  menuText: {
-    fontSize: 16,
-  },
+  profileCard: { backgroundColor: 'white', margin: 20, borderRadius: 10, alignItems: 'center', padding: 20,},
+  profileImage: {width: 100, height: 100, borderRadius: 50, marginBottom: 15,},
+  profileName: {fontSize: 20, fontWeight: 'bold', marginBottom: 5,},
+  profileLocation: {fontSize: 14, color: 'gray',},
+  profilePhone: {fontSize: 14, color: 'gray', marginBottom: 10,},
+  menuItem: {backgroundColor: 'white', padding: 20, marginHorizontal: 20, marginVertical: 10, borderRadius: 10, flexDirection: 'row', alignItems: 'center',},
+  iconContainer: {padding: 10, borderRadius: 5, marginRight: 10,},
+  icon: {fontSize: 20, color: '#4caf50',},
+  menuText: {fontSize: 16,},
 });
 
 export default Profile;

@@ -26,7 +26,7 @@ const CheckoutScreen = ({ navigation, route }) => {
 
     const orderDetails = {
       paymentMethod: selectedPaymentMethod,
-      address: "Elizabeth Place, Talamban Cebu", 
+      address: "Elizabeth Place, Talamban Cebu",
       totalAmount: grandTotal,
     };
 
@@ -60,9 +60,7 @@ const CheckoutScreen = ({ navigation, route }) => {
   const handlePaymentMethodPress = () => {
     navigation.navigate('Payment Method', {
       selectedPaymentMethod,
-      onSelectPaymentMethod: (method) => {
-        setSelectedPaymentMethod(method);
-      },
+
     });
   };
 
@@ -197,7 +195,7 @@ const styles = StyleSheet.create({
   infoText: { fontSize: 14, marginTop: 5 },
   infoSubText: { fontSize: 12, color: '#888' },
   modalContainer: { flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: 'rgba(0, 0, 0, 0.5)', },
-  modalContent: { width: '90%', backgroundColor: 'white', padding: 20, borderRadius: 10, borderTopEndRadius: 30, borderTopStartRadius: 30, height: '95%', width: '100%', top: 100 },
+  modalContent: { backgroundColor: 'white', padding: 20, borderRadius: 10, borderTopEndRadius: 30, borderTopStartRadius: 30, height: '95%', width: '100%', top: 100 },
   modalCloseButton: { alignSelf: 'flex-end' },
   line: { height: 1, backgroundColor: '#ccc', marginVertical: 10 },
   modalTitle: { fontSize: 20, fontWeight: 'bold', marginBottom: 10 },

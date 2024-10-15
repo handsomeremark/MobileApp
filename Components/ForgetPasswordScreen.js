@@ -1,6 +1,5 @@
 import React, { useState, useRef } from 'react';
 import { View, Text, TextInput, TouchableOpacity, StyleSheet, Alert } from 'react-native';
-import { Ionicons } from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/native';
 import { FirebaseRecaptchaVerifierModal } from 'expo-firebase-recaptcha';
 import { getAuth, PhoneAuthProvider } from 'firebase/auth';
@@ -13,7 +12,7 @@ const ForgetPasswordScreen = () => {
   const navigation = useNavigation();
   const [phoneNumber, setPhoneNumber] = useState('');
   const [phoneNumberError, setPhoneNumberError] = useState('');
-  const [verificationId, setVerificationId] = useState(null);
+  const [ setVerificationId] = useState(null);
   const recaptchaVerifier = useRef(null);
 
   const handleRecoverButton = async () => {

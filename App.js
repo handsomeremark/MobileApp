@@ -12,6 +12,7 @@ import ResetPaswwordScreen from './Components/ResetPasswordScreen';
 import SetUpProfile from './Components/SetUpProfile';
 import SetUpLocation from './Components/SetUpLocation';
 import ProductScreen from './Components/ProductsScreen';
+import ProductDetails from "./Components/ProductDetails";
 import CartScreen from './Components/CartScreen';
 import ProfileScreen from './Components/ProfileScreen';
 import CheckoutScreen from './Components/CheckoutScreen';
@@ -20,7 +21,7 @@ import AddCreditCard from './Components/AddCreditCard';
 import OrderConfirmation from './Components/OrderConfirmation';
 import OrderStatus from './Components/OrderStatus';
 import Notification from './Components/Notification';
-import { CartProvider } from './Components/CartContext'; 
+import { CartProvider } from './Components/CartContext';
 
 const Stack = createStackNavigator();
 
@@ -51,6 +52,7 @@ export default function App() {
           <Stack.Screen name="Setup Your Profile" component={SetUpProfile} options={{ headerShown: true, headerTitleAlign: 'center' }} />
           <Stack.Screen name="SetUpLocation" component={SetUpLocation} options={{ headerShown: false }} />
           <Stack.Screen name="Products" component={ProductScreen} options={{ headerShown: true, headerTitleAlign: 'center' }} />
+          <Stack.Screen name="Product Details" component={ProductDetails} options={{ headerShown: true, headerTitleAlign: 'center' }} />
           <Stack.Screen name="Cart" component={CartScreen} options={{ headerShown: true, headerTitleAlign: 'center', }} />
           <Stack.Screen name="Profile" component={ProfileScreen} options={{ headerShown: true, headerTitleAlign: 'center', }} />
           <Stack.Screen name="Checkout" component={CheckoutScreen} options={{ headerShown: true, headerTitleAlign: 'center', }} />

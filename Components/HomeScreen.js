@@ -5,9 +5,8 @@ import { useIsFocused } from '@react-navigation/native';
 import BottomNavigationBar from './BottomNavigationBar';
 
 const screenWidth = Dimensions.get('window').width;
-const screenHeight = Dimensions.get('window').height;
 
-const HomeScreen = ({ route, navigation }) => {
+const HomeScreen = ({ navigation }) => {
     const [selectedLocation, setSelectedLocation] = useState({ latitude: 0, longitude: 0 });
     const isFocused = useIsFocused();
 
@@ -27,25 +26,10 @@ const HomeScreen = ({ route, navigation }) => {
         }
     };
 
-    const storeSelectedLocation = async (location) => {
-        try {
-            await AsyncStorage.setItem('selectedLocation', JSON.stringify(location));
-        } catch (error) {
-            console.error('Error storing selected location:', error);
-        }
-    };
 
-    const handleLogout = () => {
-        AsyncStorage.removeItem('selectedLocation');
-    };
 
-    const handleLocationChange = (newLocation) => {
-        setSelectedLocation(newLocation);
-        storeSelectedLocation(newLocation);
-    };
 
-    const [scrollPosition, setScrollPosition] = useState(0);
-    const carouselItemWidth = 100;
+
     const carouselItems = [
         {
             name: 'Product 1',

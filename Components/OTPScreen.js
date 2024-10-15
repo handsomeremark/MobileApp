@@ -1,7 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { View, Text, TextInput, TouchableOpacity, StyleSheet, Alert } from 'react-native';
 import { auth } from '../backend/firebase';
-import { PhoneAuthProvider } from 'firebase/auth';
 
 const OTPScreen = ({ route, navigation }) => {
     const { phoneNumber, confirmResult } = route.params || {};

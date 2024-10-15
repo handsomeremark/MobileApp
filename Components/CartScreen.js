@@ -71,7 +71,7 @@ const styles = StyleSheet.create({
     box: { width: '94%', height: 70, backgroundColor: '#FFFFFF', borderRadius: 5, justifyContent: 'center', alignItems: 'center', overflow: 'hidden', borderWidth: 1, borderColor: '#E2E2E2', marginTop: 10, left: 10, padding: 10, },
     productTitle: { fontSize: 13, fontWeight: 'bold', alignSelf: 'flex-start', top: 10, },
     productName: { fontSize: 13, color: 'red', alignSelf: 'flex-start', top: 15, },
-    ViewOrder: { color: 'white', fontSize: 12, bottom: 12, alignSelf: 'flex-end', left: 100, bottom: 20, fontWeight: 'bold', paddingVertical: 5, paddingHorizontal: 10, backgroundColor: '#336841', borderRadius: 5, },
+    ViewOrder: { color: 'white', fontSize: 12, bottom: 12, alignSelf: 'flex-end', left: 100, fontWeight: 'bold', paddingVertical: 5, paddingHorizontal: 10, backgroundColor: '#336841', borderRadius: 5, },
     noItemText: { fontSize: 18, color: '#666', textAlign: 'center', marginTop: 50, },
     trashIcon: { marginLeft: 10, },
 });
