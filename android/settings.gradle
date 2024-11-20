@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 pluginManagement {
     includeBuild(new File(["node", "--print", "require.resolve('@react-native/gradle-plugin/package.json')"].execute(null, rootDir).text.trim()).getParentFile().toString())
 }
@@ -22,6 +23,9 @@ extensions.configure(com.facebook.react.ReactSettingsExtension) { ex ->
 }
 
 rootProject.name = 'AndroidApp'
+=======
+rootProject.name = 'GREENCARTPH'
+>>>>>>> origin/main
 
 dependencyResolutionManagement {
   versionCatalogs {
@@ -34,5 +38,11 @@ dependencyResolutionManagement {
 apply from: new File(["node", "--print", "require.resolve('expo/package.json')"].execute(null, rootDir).text.trim(), "../scripts/autolinking.gradle");
 useExpoModules()
 
+<<<<<<< HEAD
+=======
+apply from: new File(["node", "--print", "require.resolve('@react-native-community/cli-platform-android/package.json', { paths: [require.resolve('react-native/package.json')] })"].execute(null, rootDir).text.trim(), "../native_modules.gradle");
+applyNativeModulesSettingsGradle(settings)
+
+>>>>>>> origin/main
 include ':app'
 includeBuild(new File(["node", "--print", "require.resolve('@react-native/gradle-plugin/package.json', { paths: [require.resolve('react-native/package.json')] })"].execute(null, rootDir).text.trim()).getParentFile())

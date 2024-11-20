@@ -105,6 +105,7 @@ const PhoneNumberVerificationScreen = () => {
 };
 
 const styles = StyleSheet.create({
+<<<<<<< HEAD
     container: { flex: 1, backgroundColor: '#ffffff', paddingHorizontal: 20, paddingTop: 5 },
     GetCodeText: { marginBottom: 20, fontSize: 20, fontWeight: '600', top: 20 },
     CodeText: { marginBottom: 10, alignSelf: 'flex-start', bottom: 10, right: 5, fontSize: 12, top: 2 },
@@ -118,6 +119,86 @@ const styles = StyleSheet.create({
     buttonText: { color: '#fff', fontSize: 18, fontWeight: 'bold' },
     errorText: { color: 'red', fontSize: 12, bottom: 10 },
     backButton: { position: 'absolute', top: 50, left: 20 },
+=======
+    container: {
+        flex: 1,
+        backgroundColor: '#ffffff',
+        paddingHorizontal: 20,
+        paddingTop: 5,
+    },
+    GetCodeText: {
+        marginBottom: 20,
+        fontSize: 20,
+        fontWeight: '600',
+        top: 20,
+    },
+    CodeText: {
+        marginBottom: 10,
+        alignSelf: 'flex-start',
+        bottom: 10,
+        right: 5,
+        fontSize: 12,
+        top: 2,
+    },
+    paragraph: {
+        fontSize: 14,
+        marginBottom: 30,
+        top: 15,
+    },
+    inputContainer: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        marginBottom: 20,
+    },
+    input: {
+        height: 50,
+        width: '15%',
+        borderWidth: 1,
+        borderColor: '#ccc',
+        borderRadius: 5,
+        paddingHorizontal: 15,
+        textAlign: 'center',
+    },
+    verifyButton: {
+        backgroundColor: '#336841',
+        width: '100%',
+        borderRadius: 5,
+        paddingVertical: 15,
+        alignItems: 'center',
+        bottom: 20,
+    },
+    resendButton: {
+        marginTop: 10,
+        alignItems: 'center',
+    },
+    resendText: {
+        alignSelf: 'center',
+        top: 90,
+        right: 35,
+    },
+    resendTextButton: {
+        alignSelf: 'center',
+        color: '#3D50FC',
+        top: 69,
+        left: 72,
+
+    },
+    buttonText: {
+        color: '#fff',
+        fontSize: 18,
+        fontWeight: 'bold',
+    },
+    errorText: {
+        color: 'red',
+        fontSize: 12,
+        bottom: 10,
+    },
+    backButton: {
+        position: 'absolute',
+        top: 50,
+        left: 20,
+    },
+>>>>>>> origin/main
 });
 
 export default PhoneNumberVerificationScreen;

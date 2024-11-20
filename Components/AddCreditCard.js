@@ -38,7 +38,11 @@ const AddCreditCard = () => {
                     value={expiryDate}
                     onChangeText={setExpiryDate}
                     keyboardType="numeric"
+<<<<<<< HEAD
                     maxLength={5}
+=======
+                    maxLength={5} 
+>>>>>>> origin/main
                 />
 
                 <TextInput
@@ -47,7 +51,11 @@ const AddCreditCard = () => {
                     value={cvc}
                     onChangeText={setCvc}
                     keyboardType="numeric"
+<<<<<<< HEAD
                     maxLength={3}
+=======
+                    maxLength={3} 
+>>>>>>> origin/main
                 />
             </View>
 
@@ -84,6 +92,7 @@ const AddCreditCard = () => {
 };
 
 const styles = StyleSheet.create({
+<<<<<<< HEAD
     container: { flex: 1, padding: 16, backgroundColor: "white", },
     label: { marginBottom: 10, marginTop: 10, },
     input: { borderColor: '#ccc', borderWidth: 1, padding: 12, borderRadius: 8, },
@@ -95,6 +104,60 @@ const styles = StyleSheet.create({
     checkboxText: { fontSize: 12, left: 5, },
     button: { backgroundColor: '#336841', padding: 16, borderRadius: 8, alignItems: 'center', },
     buttonText: { color: '#fff', fontSize: 18,},
+=======
+    container: {
+        flex: 1,
+        padding: 16,
+        backgroundColor: "white",
+    },
+    label: {
+        marginBottom: 10,
+        marginTop: 10,
+    },
+    input: {
+        borderColor: '#ccc',
+        borderWidth: 1,
+        padding: 12,
+        borderRadius: 8,
+    },
+    row: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        marginBottom: 16,
+    },
+    expiryInput: {
+        flex: 1,
+        marginRight: 8,
+    },
+    cvcInput: {
+        flex: 1,
+    },
+    checkboxContainer: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        marginBottom: 16,
+        marginTop: 10,
+    },
+    checkbox: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        marginRight: 8,
+    },
+    checkboxText: {
+        fontSize: 12,
+        left: 5,
+    },
+    button: {
+        backgroundColor: '#336841',
+        padding: 16,
+        borderRadius: 8,
+        alignItems: 'center',
+    },
+    buttonText: {
+        color: '#fff',
+        fontSize: 18,
+    },
+>>>>>>> origin/main
 });
 
 export default AddCreditCard;

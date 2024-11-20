@@ -95,6 +95,7 @@ const ResetPasswordScreen = () => {
 };
 
 const styles = StyleSheet.create({
+<<<<<<< HEAD
     container: { flex: 1, backgroundColor: '#ffffff', paddingHorizontal: 20, paddingTop: 10 },
     title: { fontSize: 18, fontWeight: '500', marginBottom: 20, bottom: 22, left: 40 },
     PasswordText: { marginBottom: 5, fontSize: 20, fontWeight: '400', marginTop: 10 },
@@ -110,3 +111,73 @@ const styles = StyleSheet.create({
   
   export default ResetPasswordScreen;
   
+=======
+    container: {
+        flex: 1,
+        backgroundColor: '#ffffff',
+        paddingHorizontal: 20,
+        paddingTop: 10,
+    },
+    title: {
+        fontSize: 18,
+        fontWeight: '500',
+        marginBottom: 20,
+        bottom: 22,
+        left: 40,
+    },
+    PasswordText: {
+        marginBottom: 5,
+        fontSize: 20,
+        fontWeight: '400',
+        marginTop: 10,
+    },
+    paragraph: {
+        marginBottom: 20,
+        fontSize: 12,
+        marginTop: 10,
+        color: '#575450',
+    },
+    input: {
+        height: 50,
+        borderWidth: 1,
+        borderColor: '#ccc',
+        borderRadius: 5,
+        paddingHorizontal: 20,
+        marginBottom: 20,
+    },
+    passwordInputContainer: {
+        position: 'relative',
+        width: '100%',
+    },
+    eyeIconContainer: {
+        position: 'absolute',
+        top: 15,
+        right: 15,
+    },
+    verifyButton: {
+        backgroundColor: '#336841',
+        width: '100%',
+        borderRadius: 5,
+        paddingVertical: 15,
+        alignItems: 'center',
+        marginTop: 20,
+    },
+    buttonText: {
+        color: '#fff',
+        fontSize: 18,
+        fontWeight: 'bold',
+    },
+    errorText: {
+        color: 'red',
+        fontSize: 12,
+        bottom: 10,
+    },
+    backButton: {
+        position: 'absolute',
+        top: 50,
+        left: 20,
+    },
+});
+
+export default ResetPasswordScreen;
+>>>>>>> origin/main

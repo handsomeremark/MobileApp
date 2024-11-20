@@ -30,6 +30,20 @@ export default function LoadingScreen() {
 }
 
 const styles = StyleSheet.create({
+<<<<<<< HEAD
   container: { flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: '#009963', },
   logo: { width: 200, height: 200, resizeMode: 'contain', },
+=======
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#009963',
+  },
+  logo: {
+    width: 200,
+    height: 200,
+    resizeMode: 'contain',
+  },
+>>>>>>> origin/main
 });

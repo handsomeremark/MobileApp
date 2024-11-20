@@ -1,5 +1,6 @@
 # Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
 
+<<<<<<< HEAD
 
 # Expo
 .expo/
@@ -37,6 +38,8 @@ yarn-error.*
 
 # Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
 
+=======
+>>>>>>> origin/main
 # dependencies
 node_modules/
 
@@ -44,7 +47,10 @@ node_modules/
 .expo/
 dist/
 web-build/
+<<<<<<< HEAD
 expo-env.d.ts
+=======
+>>>>>>> origin/main
 
 # Native
 *.orig.*
@@ -71,5 +77,8 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
+<<<<<<< HEAD
 
 # @end expo-cli
+=======
+>>>>>>> origin/main

@@ -1,5 +1,6 @@
 {
   "expo": {
+<<<<<<< HEAD
     "name": "AndroidApp",
     "slug": "AndroidApp",
     "version": "1.0.0",
@@ -34,5 +35,13 @@
         "projectId": "9f698848-8df8-4062-823d-21f72375cddd"
       }
     }
+=======
+    "name": "GREENCARTPH",
+    "slug": "GREENCARTPH",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+>>>>>>> origin/main
   }
 }
