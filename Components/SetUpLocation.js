@@ -1,9 +1,5 @@
 import React, { useState } from 'react';
-<<<<<<< HEAD
 import { View, StyleSheet, TouchableOpacity, Text, TextInput } from 'react-native';
-=======
-import { View, StyleSheet, Dimensions, TouchableOpacity, Text, TextInput } from 'react-native';
->>>>>>> origin/main
 import { MaterialIcons } from '@expo/vector-icons';
 import MapView, { Marker } from 'react-native-maps';
 import { useNavigation } from '@react-navigation/native';
@@ -59,7 +55,6 @@ const SetUpLocation = () => {
 };
 
 const styles = StyleSheet.create({
-<<<<<<< HEAD
     container: { flex: 1 },
     searchContainer: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 20, top: 50 },
     backIcon: { marginRight: 10 },
@@ -70,49 +65,3 @@ const styles = StyleSheet.create({
   });
   
   export default SetUpLocation;
-  
-=======
-    container: {
-        flex: 1,
-    },
-    searchContainer: {
-        flexDirection: 'row',
-        alignItems: 'center',
-        paddingHorizontal: 20,
-        top: 50,
-    },
-    backIcon: {
-        marginRight: 10,
-    },
-    searchInput: {
-        flex: 1,
-        height: 40,
-        backgroundColor: '#D9D9D9',
-        borderRadius: 5,
-        paddingHorizontal: 10,
-    },
-    map: {
-        width: '95%',
-        height: 660,
-        alignSelf: 'center',
-        top: 60,
-    },
-    buttonContainer: {
-        backgroundColor: '#336841',
-        width: '90%',
-        borderRadius: 5,
-        paddingVertical: 15,
-        alignItems: 'center',
-        alignSelf: 'center',
-        position: 'absolute',
-        bottom: 20,
-    },
-    buttonText: {
-        color: 'white',
-        fontSize: 18,
-        fontWeight: 'bold',
-    },
-});
-
-export default SetUpLocation;
->>>>>>> origin/main

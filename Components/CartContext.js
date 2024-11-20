@@ -1,15 +1,10 @@
-<<<<<<< HEAD
 import React, { createContext, useState, useContext, useEffect } from "react";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import axios from "axios";
-=======
-import React, { createContext, useState, useContext } from 'react';
->>>>>>> origin/main
 
 const CartContext = createContext();
 
 export const CartProvider = ({ children }) => {
-<<<<<<< HEAD
   const [cart, setCart] = useState([]);
   const [selectedItems, setSelectedItems] = useState([]);
   const [userPhone, setUserPhone] = useState(null);
@@ -212,23 +207,6 @@ export const CartProvider = ({ children }) => {
       {children}
     </CartContext.Provider>
   );
-=======
-    const [cart, setCart] = useState([]);
-
-    const addToCart = (item) => {
-        setCart((prevCart) => [...prevCart, item]);
-    };
-
-    const removeFromCart = (itemId) => {
-        setCart((prevCart) => prevCart.filter(item => item.id !== itemId));
-    };
-
-    return (
-        <CartContext.Provider value={{ cart, addToCart, removeFromCart }}>
-            {children}
-        </CartContext.Provider>
-    );
->>>>>>> origin/main
 };
 
 export const useCart = () => useContext(CartContext);
