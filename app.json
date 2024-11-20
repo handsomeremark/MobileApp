@@ -11,8 +11,12 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.remark.AndroidApp"
     },
     "android": {
       "adaptiveIcon": {
@@ -24,6 +28,7 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
+    "sdkVersion": "52.0.0",
     "extra": {
       "eas": {
         "projectId": "9f698848-8df8-4062-823d-21f72375cddd"
